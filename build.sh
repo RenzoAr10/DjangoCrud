@@ -4,8 +4,12 @@ set -o errexit
 
 # Modify this line as needed for your package manager (pip, poetry, etc.)
 
-# pip install -r requirements.txt
+pip install -r requirements.txt
 #- Si lo esta ejecutando ->
+# git status
+# git add .
+# git commit -m "commented pip install "
+# git push origin master
 
 # Convert static asset files
 python manage.py collectstatic --no-input
