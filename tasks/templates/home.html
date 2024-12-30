@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Django App</h1>
+        <p>Bienvenido a nuestra plataforma de gestión de tareas, un espacio diseñado para ayudarte a 
+            organizar, priorizar y alcanzar tus objetivos de manera eficiente. Ya sea que trabajes 
+            en equipo o de forma individual, aquí encontrarás herramientas fáciles de usar que te 
+            permitirán crear y asignar tareas, establecer fechas límite y hacer un seguimiento 
+            detallado de tu progreso. Nuestra plataforma está pensada para adaptarse a tus necesidades, 
+            ofreciendo flexibilidad y personalización en cada paso del camino. Además, con funciones 
+            avanzadas de colaboración, podrás comunicarte y trabajar con tu equipo de manera fluida, 
+            asegurándote de que cada proyecto esté bien encaminado hacia el éxito. Únete a nosotros 
+            hoy mismo y descubre cómo una buena organización puede transformar tus días en experiencias 
+            más productivas, enfocadas y satisfactorias. ¡El camino hacia tus metas comienza aquí!</p>
+    
+    </section>
+    
+    <div class="text-center">
+        <a class="btn btn-primary" href="/signin/">
+            Signin
+        </a>
+        <a class="btn btn-primary" href="/signup/">
+            Signup
+        </a>
+    </div>
+</main>
+
+{% endblock %}
